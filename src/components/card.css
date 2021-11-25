@@ -1,0 +1,131 @@
+.container {
+  border: 1px solid black;
+  width: 111%;
+  padding:15px;
+  display: grid;
+  grid-gap: 25px;
+  border: 1px solid #E3E3E3;
+  box-shadow: 0px 0px 4px 0px #B7B7B740;
+  border-radius: 12px;
+  gap: 25px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.card {
+  border: 1px solid #e3e3e3;
+  box-shadow: 0px 0px 4px 0px #b7b7b740;
+  width: 335px;
+  height: 370px;
+  background: #fcfcfc;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* .backImg{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-position: center;
+} */
+.carditems{
+    margin-top: 10px;
+    position: relative;
+    bottom: 183px;
+}
+
+.cardhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hed1{
+    background: #43CA03;
+    color: #FCFCFC;
+    padding:2px 5px;
+    padding-right: 14px;
+    margin-top: 15px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.hed2{
+    background: #43CA03;
+    color: #FCFCFC;
+    margin-top: 15px;
+    padding-left: 14px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+
+}
+.cardhead2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.frame3{
+    margin-right: 5px;
+    position: relative;
+    top: 60px;
+}
+
+.videoImg{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.messg{
+    color: #FCFCFC;
+
+}
+.fees{
+    display: flex;
+    flex-direction: column;
+}
+.subfees{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.feestructure{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+.dth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 15px;
+    border-right: 0.5px solid #888888B2;
+}
+.dth1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btncard{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.btnc{
+    font-size: 16px;
+    background: #FCFCFC;
+    border: 1px solid #0377EB;
+    border-radius: 6px;
+    padding:10px 15px ; 
+    color:#0377EB ;
+    cursor: pointer;
+}
+.btnc2{
+    background:#0377EB;
+    border-radius: 6px;
+    padding:10px 40px ; 
+    color:#f9f9f9 ;
+    border: none;
+    cursor: pointer;
+}
