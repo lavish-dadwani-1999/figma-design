@@ -4,7 +4,7 @@ import './home.css';
 import "./card.css"
 import Cards from "./Cards"
 const Home = () => {
-
+  const arr = [1,2,3,4,5,6,7,8,9,10,11,12]
     const [display1, setdisplay1] = useState("block")
     const [display2, setdisplay2] = useState("block")
     const [display3, setdisplay3] = useState("block")
@@ -315,18 +315,11 @@ const Home = () => {
             </div>
         </div>
         <div className="container">
-            <Cards/>
-            <Cards/>
-            <Cards/>
-            <Cards/>
-            <Cards/>
-            <Cards/>
-            <Cards/>
-            <Cards/>
-            <Cards/>
-            <Cards/>
-            <Cards/>
-            <Cards/>
+            
+               {arr.map((item,index)=>{
+                return <Cards/>
+            })}
+            
         </div>
       </div>
     </div>

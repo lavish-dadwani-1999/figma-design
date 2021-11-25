@@ -30,8 +30,9 @@ class Rangs extends React.Component {
             {...props}
             style={{
               ...props.style,
-              height: '42px',
-              width: '42px',
+              height: '25px',
+              borderRadius:"50%",
+              width: '25px',
               backgroundColor: '#999'
             }}
           />
